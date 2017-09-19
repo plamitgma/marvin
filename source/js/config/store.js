@@ -1,16 +1,13 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import logger from 'dev/logger';
+import { Map } from 'immutable';
 
 // Remove if you are not using server rendering
 // Also remove following packages from package.json
 // "express"
-// "transit-immutable-js"
-// "transit-js"
 // "nodemon"
 // "concurrently"
-import transit from 'transit-immutable-js';
-
 
 import rootReducer from 'reducers';
 
@@ -18,17 +15,24 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 // Remove if you are not using server rendering
 let INIT_STATE = null;
+const initImmutableState = {};
 
 // Remove if you are not using server rendering
 try {
   INIT_STATE = __MARVIN_DEHYDRATED_STATE; // eslint-disable-line no-undef
 } catch (e) {
-  console.log('Mavin: No dehydrated state'); // eslint-disable-line no-console
+  console.log('★★ Marvin: No dehydrated state'); // eslint-disable-line no-console
 }
 
 // Remove if you are not using server rendering
 if (INIT_STATE) {
-  INIT_STATE = transit.fromJSON(INIT_STATE);
+  // If state exists we need to parse it to JS object
+  INIT_STATE = JSON.parse(INIT_STATE);
+
+  // Then we iterate over reducers and convers them from JS object to Immutable Map
+  Object.keys(INIT_STATE).forEach(key => {
+    initImmutableState[key] = Map(INIT_STATE[key]);
+  });
 }
 
 // Creating store
@@ -58,7 +62,7 @@ export default () => {
     // Remove if you are not using server rendering
     store = createStore(
       rootReducer,
-      INIT_STATE,
+      initImmutableState,
       middleware
     );
   } else {

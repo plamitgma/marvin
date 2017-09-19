@@ -9,7 +9,7 @@ const ServerHtml = ({ appHtml, dehydratedState }) => (
       <meta charSet='utf-8' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
 
-      <title>Marvin &bull; React/Redux Boilerplate</title>
+      <title>Marvin ★★ React/Redux Boilerplate</title>
 
       <link rel='stylesheet' href={ `/${ outputFiles.css }` } />
     </head>
@@ -19,7 +19,7 @@ const ServerHtml = ({ appHtml, dehydratedState }) => (
         dangerouslySetInnerHTML={ { __html: appHtml } } // eslint-disable-line
       />
       <script
-        dangerouslySetInnerHTML={ { __html: `var __MARVIN_DEHYDRATED_STATE = ${ dehydratedState };` } } // eslint-disable-line
+        dangerouslySetInnerHTML={ { __html: `var __MARVIN_DEHYDRATED_STATE = '${ dehydratedState }';` } } // eslint-disable-line
       />
       <script type='text/javascript' src={ `/${ outputFiles.vendor }` } />
       <script type='text/javascript' src={ `/${ outputFiles.client }` } />

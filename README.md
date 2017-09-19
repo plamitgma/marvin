@@ -187,8 +187,6 @@ node ./build/server.js
 If you are not using server rendering remove following packages from `package.json`
 
 * `express`
-* `transit-immutable-js`
-* `transit-js`
 * `nodemon`
 * `concurrently`
 
@@ -198,7 +196,7 @@ Also open `source/js/config/store.js` and remove lines marked with the following
 // Remove if you are not using server rendering
 ```
 
-Client app is going to work without this but, it will include few unused packages.
+Client app is going to work without this, but you will have few unused packages installed.
 Therefore it is better to remove them.
 
 

@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import express from 'express';
 import { Provider } from 'react-redux';
-import transit from 'transit-immutable-js';
 
 import 'babel-polyfill';
 
 import configureStore from 'config/store';
 import getServerHtml from 'config/server-html';
 import Server from 'views/Server';
+
+import { testAsyncFetch } from 'actions/app';
 
 // Load SCSS
 import '../scss/app.scss';
@@ -17,13 +18,16 @@ const app = express();
 const hostname = 'localhost';
 const port = 8080;
 
-app.use('/client', express.static('build/client'));
-
-app.use((req, res) => {
-  // Creates empty store for each request
-  const store = configureStore();
+const respond = (req, res, store) => {
   // Dehydrates the state
-  const dehydratedState = JSON.stringify(transit.toJSON(store.getState()));
+  const stateImmutable = store.getState();
+  const stateJS = {};
+  // Iterates over reducers and convert them from Immutable Map to JS object
+  Object.keys(stateImmutable).forEach(key => {
+    stateJS[key] = stateImmutable[key].toJS();
+  });
+  // Stringify and escape state to be sent in HTML response
+  const dehydratedState = JSON.stringify(stateJS).replace(/'/g, '\\\'');
 
   // Context is passed to the StaticRouter and it will attach data to it directly
   const context = {};
@@ -36,7 +40,6 @@ app.use((req, res) => {
 
   const serverHtml = getServerHtml(appHtml, dehydratedState);
 
-  // Context has url, which means `<Redirect>` was rendered somewhere
   if (context.url) {
     res.redirect(301, context.url);
   } else {
@@ -45,6 +48,33 @@ app.use((req, res) => {
   }
 
   // TODO how to handle 50x errors?
+};
+
+const fetchData = (req, res, store) => {
+  const respondCallback = () => respond(req, res, store);
+
+  const routeMapper = {
+    '/': () => {
+      testAsyncFetch(store.dispatch, respondCallback);
+    },
+  };
+
+  return routeMapper[req.url] || null;
+};
+
+app.use('/client', express.static('build/client'));
+
+app.use((req, res) => {
+  // Creates empty store for each request
+  const store = configureStore();
+
+  const action = fetchData(req, res, store);
+
+  if (action) {
+    action();
+  } else {
+    respond(req, res, store);
+  }
 });
 
 // Start listening
