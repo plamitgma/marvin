@@ -26,8 +26,10 @@ const respond = (req, res, store) => {
   Object.keys(stateImmutable).forEach(key => {
     stateJS[key] = stateImmutable[key].toJS();
   });
-  // Stringify and escape state to be sent in HTML response
-  const dehydratedState = JSON.stringify(stateJS).replace(/'/g, '\\\'');
+  // the first JSON.stringify converts object to string
+  // the second JSON.stringify escapes that string
+  // then we can output it in the HTML and parse on the client
+  const dehydratedState = JSON.stringify(JSON.stringify(stateJS));
 
   // Context is passed to the StaticRouter and it will attach data to it directly
   const context = {};
