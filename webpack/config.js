@@ -21,6 +21,7 @@ const SERVER_RENDER = process.env.SERVER_RENDER === 'true';
 const HYDRATE = process.env.HYDRATE === 'true';
 const IS_DEVELOPMENT = NODE_ENV === 'development';
 const IS_PRODUCTION = NODE_ENV === 'production';
+const PORT = process.env.PORT;
 
 // ----------
 // PLUGINS
@@ -36,6 +37,7 @@ const plugins = [
       NODE_ENV: JSON.stringify(NODE_ENV),
       SERVER_RENDER: JSON.stringify(SERVER_RENDER) === 'true',
       HYDRATE: JSON.stringify(HYDRATE) === 'true',
+      PORT: JSON.stringify(PORT),
     },
   }),
 ];

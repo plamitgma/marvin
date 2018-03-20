@@ -21,7 +21,11 @@ import 'index.css';
 
 const app = express();
 const hostname = 'localhost';
-const port = 8080;
+const port = process.env.PORT;
+
+console.log('--------------------------');
+console.log(port);
+console.log('--------------------------');
 
 // ENV
 const IS_DEVELOPMENT = app.get('env') === 'development';
