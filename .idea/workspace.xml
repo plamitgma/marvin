@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59ba2604-67fd-4df0-a6d5-67ba1cb9293e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/css/base/animation_demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/actions/effect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/actions/flight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/actions/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/api/travelServiceApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/reducers/flight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/reducers/flight3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/reducers/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/sagas/effect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/sagas/flight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/sagas/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/views/Animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/views/Flight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/css/base/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/css/base/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/js/components/global/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/components/global/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/js/constants/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/constants/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/js/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/js/sagas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/sagas/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/js/views/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/views/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/js/views/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/views/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="59ba2604-67fd-4df0-a6d5-67ba1cb9293e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -39,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="effect.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="effect.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/js/sagas/effect.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -313,27 +297,27 @@
       <workItem from="1535627682834" duration="10000" />
       <workItem from="1535683435699" duration="11954000" />
       <workItem from="1536028242255" duration="750000" />
+      <workItem from="1536031767011" duration="378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61227000" />
+    <option name="totallyTimeSpent" value="61605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-877" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35223368" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35175344" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -355,13 +339,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/js/views/Flight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/js/sagas/flight.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -698,7 +675,14 @@
     <entry file="file://$PROJECT_DIR$/source/js/sagas/effect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
         </state>
       </provider>
     </entry>
