@@ -129,7 +129,7 @@ button:hover {
 }
 
 .Page {
-  max-width: 60rem;
+  max-width: 100rem;
   margin: 0 auto;
 
   @media (--lg) {
@@ -137,48 +137,33 @@ button:hover {
   }
 }
 
-.Example {
-  background: #F6F8FA;
-  padding: 2rem;
-  border-radius: 0.4rem;
+.hello-saga {
+  font-size: 5rem;
+  text-align: left;
+  display: inline-block;
+  animation: helloSaga 4s infinite alternate linear;
 }
 
-.Example .Icon {
-  margin-right: 10px;
-}
-
-.BackgroundImgExample {
-  background-image: url(../assets/img/book1.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 16rem;
-  max-width: 25rem;
-}
-
-.ImgExample {
-  max-width: 25rem;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid var(--grey-border);
-  margin: 2rem 0;
-}
-
-.People-list {
-  @media (--md) {
-    display: flex;
-    flex-wrap: wrap;
+@keyframes helloSaga {
+  0% {
+    transform: translateX(0) translateY(0);
+    color: green;
   }
-}
+  25% {
+    transform: translateX(100%) translateY(0);
+  }
+  50% {
+    transform: translateX(100%) translateY(200px);
+    color: red;
+  }
 
-.People-person {
-  border-bottom: 1px solid var(--grey-border);
-  padding-bottom: 2rem;
+  75% {
+    transform: translateX(0) translateY(200px);
+    color: purple;
+  }
 
-  @media (--md) {
-    flex-basis: 50%;
-    flex-shrink: 0;
+  100% {
+    transform: translateX(0) translateY(0);
+    color: purple;
   }
 }
