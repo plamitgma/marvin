@@ -1,9 +1,9 @@
-import { put, call, takeLatest, race, fork, spawn } from 'redux-saga/effects';
+import { put, call, takeLatest, race, fork, spawn, all } from 'redux-saga/effects';
 import { delay } from 'redux-saga';
 
-import TravelServiceApi from 'api/travelServiceApi';
+import TravelServiceApi from '../api/travelServiceApi';
 
-import { FETCH_RACE, FETCH_FORK } from 'actions/effect';
+import { FETCH_RACE, FETCH_FORK } from '../actions/effect';
 
 function* fetchRaceEffect() {
   const { user, timeout } = yield race({
@@ -12,13 +12,12 @@ function* fetchRaceEffect() {
   });
   if (user) {
     put({ type: 'POSTS_RECEIVED', user });
-  }
-  else {
+  } else {
     put({ type: 'TIMEOUT_ERROR', timeout });
   }
 }
 function* fork1() {
-  yield delay(1000);
+  yield call(delay, 1000);
   console.log('Fork 1');
 }
 
@@ -52,9 +51,6 @@ function* fetchForkEffect() {
   fork3();
   yield fork(fork4);
   yield spawn(spawn1);
-  yield delay(3000);
-  console.log('main fork');
-  throw new Error();
 }
 
 function* watchRaceEffect() {
@@ -65,8 +61,12 @@ function* watchForkEffect() {
   yield takeLatest(FETCH_FORK, fetchForkEffect);
 }
 
-export default [
-  watchRaceEffect(),
-  watchForkEffect(),
-];
+export default function EffectSaga() {
+  return function* () {
+    yield [
+      watchRaceEffect(),
+      watchForkEffect(),
+    ];
+  };
+}
 

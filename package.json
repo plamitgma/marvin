@@ -22,20 +22,58 @@
     "lint": "npm run lint-hook --silent || true",
     "hook-add": "prepush install",
     "hook-remove": "prepush remove",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest source/js --coverage --ci --reporters=default --reporters=jest-junit"
+  },
+  "jest": {
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ],
+    "collectCoverageFrom": [
+      "source/js/**/*.js",
+      "!source/js/**/index.js",
+      "!node_modules/**/*.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!@absolute).+(js|jsx)$",
+      "node_modules/jss-*",
+      "node_modules/css-*",
+      "node_modules/react-dates",
+      "node_modules/react-with-styles-interface-css",
+      "node_modules/react-with-styles",
+      "node_modules/airbnb-prop-types",
+      "node_modules/prop-types-exact",
+      "node_modules/consolidated-events",
+      "node_modules/is-touch-device",
+      "node_modules/is-touch-device"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "testRegex": "(/tests/.*|\\.?(test|spec|Test|Spec))\\.(ts|tsx|js|jsx)$",
+    "moduleNameMapper": {
+      "\\.(css|scss|less)$": "identity-obj-proxy",
+      "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/tests/mocks/fileMock.js"
+    }
+  },
+  "jest-junit": {
+    "output": "coverage/junit.xml"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.1.2",
+    "babel-jest": "^23.4.2",
     "babel-loader": "^7.1.2",
     "babel-plugin-syntax-decorators": "^6.13.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-react-constant-elements": "^6.23.0",
+    "babel-plugin-transform-replace-object-assign": "^1.0.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "babel-preset-react-optimize": "^1.0.1",
-    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "babel-runtime": "^6.26.0",
     "concurrently": "^3.5.1",
     "cross-env": "^5.1.3",
@@ -64,9 +102,16 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "enzyme": "^3.5.1",
+    "eslint-plugin-jest": "^21.22.0",
     "express": "^4.16.2",
     "immutable": "^3.8.2",
     "isomorphic-fetch": "^2.2.1",
+    "jest": "^23.5.0",
+    "jest-cli": "^23.5.0",
+    "jest-environment-node": "^23.4.0",
+    "jest-junit": "^5.1.0",
+    "jest-localstorage-mock": "^2.2.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -76,6 +121,7 @@
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
     "redux-saga": "^0.16.0",
+    "redux-saga-tester": "^1.0.379",
     "transit-immutable-js": "^0.7.0",
     "transit-js": "^0.8.846"
   },

@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59ba2604-67fd-4df0-a6d5-67ba1cb9293e" name="Default" comment="" />
+    <list default="true" id="59ba2604-67fd-4df0-a6d5-67ba1cb9293e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/junit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/actions/app.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/actions/effect.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/actions/flight.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/actions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/actions/people.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/actions/user.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/api/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/api/travelServiceApi.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/client.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/config/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/config/store.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/constants/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/constants/routes.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/dev/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/dev/logger-exports.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/dev/logger.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/reducers/app.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/reducers/flight.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/reducers/flight2.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/reducers/flight3.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/reducers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/reducers/people.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/reducers/user.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/sagas/effect.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/sagas/flight.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/sagas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/sagas/people.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/sagas/user.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/server.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/views/Animation.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/views/Flight.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/js/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/logger.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/sagas/tests/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/sagas/tests/efect.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/css/base/animation_demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/css/base/animation_demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/js/sagas/effect.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/sagas/effect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/js/sagas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/sagas/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,53 +70,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="effect.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/sagas/effect.js">
+      <file leaf-file-name="Animation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/js/views/Animation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            <state relative-caret-position="170">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="animation_demo.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/css/base/animation_demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+            <state relative-caret-position="265">
+              <caret line="182" column="1" selection-start-line="182" selection-start-column="1" selection-end-line="182" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Flight.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/views/Flight.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="83" column="2" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flight.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/actions/flight.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flight.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/js/sagas/flight.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
-              <folding>
-                <element signature="e#0#84#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -69,9 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>GET_PEOPLE_START</find>
-      <find>API_URL</find>
-      <find>getPeopleWatcher</find>
       <find>tool</find>
       <find>departure</find>
       <find>getPeopleServer</find>
@@ -83,6 +112,25 @@
       <find>Home</find>
       <find>.HOme</find>
       <find>loadDashboardSequenced2</find>
+      <find>es2015</find>
+      <find>babel-preset-react</find>
+      <find>jsx</find>
+      <find>API_FETCH_COLLECTION_WITH_POST</find>
+      <find>reporters</find>
+      <find>react-hot</find>
+      <find>stage-0</find>
+      <find>stage</find>
+      <find>env</find>
+      <find>decorators</find>
+      <find>config</find>
+      <find>/dev-server</find>
+      <find>babel-plugin</find>
+      <find>babel-polyfill</find>
+      <find>babel-polyfillbabel-polyfill</find>
+      <find>react-hmre</find>
+      <find>class</find>
+      <find>decorators-legacy</find>
+      <find>plugins</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -104,21 +152,26 @@
         <option value="$PROJECT_DIR$/source/js/reducers/index.js" />
         <option value="$PROJECT_DIR$/source/js/reducers/flight.js" />
         <option value="$PROJECT_DIR$/source/js/api/travelServiceApi.js" />
-        <option value="$PROJECT_DIR$/source/js/sagas/index.js" />
         <option value="$PROJECT_DIR$/source/js/actions/effect.js" />
         <option value="$PROJECT_DIR$/source/css/index.css" />
         <option value="$PROJECT_DIR$/source/js/views/App.jsx" />
         <option value="$PROJECT_DIR$/source/js/constants/routes.js" />
         <option value="$PROJECT_DIR$/source/js/views/Animation.js" />
-        <option value="$PROJECT_DIR$/source/css/base/animation_demo.css" />
         <option value="$PROJECT_DIR$/source/js/components/global/Menu.jsx" />
         <option value="$PROJECT_DIR$/source/js/views/Home.jsx" />
         <option value="$PROJECT_DIR$/source/css/base/app.css" />
         <option value="$PROJECT_DIR$/source/index.html" />
-        <option value="$PROJECT_DIR$/source/js/sagas/effect.js" />
         <option value="$PROJECT_DIR$/source/js/sagas/user.js" />
         <option value="$PROJECT_DIR$/source/js/views/Flight.js" />
         <option value="$PROJECT_DIR$/source/js/sagas/flight.js" />
+        <option value="$PROJECT_DIR$/source/js/sagas/tests/.eslintrc" />
+        <option value="$PROJECT_DIR$/source/js/sagas/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/source/js/sagas/tests/efect.test.js" />
+        <option value="$PROJECT_DIR$/source/js/sagas/effect.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/source/css/base/animation_demo.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -130,6 +183,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
@@ -139,10 +197,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-877" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -158,80 +216,6 @@
               <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
               <item name="marvin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvin" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvin" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvin" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvin" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvin" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvin" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvin" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvin" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="global" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvin" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvin" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="sagas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marvin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marvin" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -240,15 +224,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pvhuyenvy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../little-thimble" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Users\lphan\Documents\Personal\marvin\node_modules\eslint" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
@@ -270,6 +256,25 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="URP Saga Test.Effect Saga intercepts dispatched FETCH_FORK action" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/source/js/sagas/tests/efect.test.js" />
+      <test-names>
+        <test-name value="URP Saga Test" />
+        <test-name value="Effect Saga intercepts dispatched FETCH_FORK action" />
+      </test-names>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.URP Saga Test.Effect Saga intercepts dispatched FETCH_FORK action" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -297,34 +302,44 @@
       <workItem from="1535627682834" duration="10000" />
       <workItem from="1535683435699" duration="11954000" />
       <workItem from="1536028242255" duration="750000" />
-      <workItem from="1536031767011" duration="378000" />
+      <workItem from="1536031767011" duration="4752000" />
+      <workItem from="1536114586558" duration="6027000" />
+      <workItem from="1536227445363" duration="624000" />
+      <workItem from="1536567607095" duration="743000" />
+      <workItem from="1536638534183" duration="3709000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="URP_Saga_Test_Effect_Saga_intercepts_dispatched_FETCH_FORK_action - 2018.09.05 at 10h 48m 21s.xml">
+      <configuration name="URP Saga Test.Effect Saga intercepts dispatched FETCH_FORK action" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61605000" />
+    <option name="totallyTimeSpent" value="77082000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-877" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19921875" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35175344" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.38068965" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,66 +350,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>listOfFiredActions</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/js/sagas/flight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="70" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/sagas/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/sagas/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/views/Flight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/actions/flight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/sagas/flight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/sagas/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/sagas/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/js/views/Flight.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -442,13 +410,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/js/actions/app.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -502,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/sagas/people.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -523,31 +477,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/sagas/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/js/actions/people.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/actions/effect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="3" selection-start-line="11" selection-start-column="9" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -572,20 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/css/base/animation_demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="174" column="15" selection-start-line="174" selection-start-column="15" selection-end-line="174" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/js/views/Animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -656,9 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="83" column="2" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,23 +582,124 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
           <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="e#0#84#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/sagas/tests/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/sagas/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/sagas/people.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/sagas/tests/efect.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/actions/effect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/redux-saga-tester/dist/SagaTester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3553">
+          <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/js/sagas/effect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        <state relative-caret-position="272">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/output-files.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="187" column="6" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
+          <folding>
+            <element signature="e#4262#4440#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        <state relative-caret-position="151">
+          <caret line="67" column="44" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack/dev-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/views/Animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/css/base/animation_demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="182" column="1" selection-start-line="182" selection-start-column="1" selection-end-line="182" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>

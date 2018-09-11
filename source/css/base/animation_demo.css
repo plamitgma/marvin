@@ -151,6 +151,7 @@
   transform-style: preserve-3d;
   cursor: pointer;
   margin-bottom: 20px;
+  animation: pictureAnnimation 3s infinite alternate linear;
 }
 
 .picture .back, .picture .front {
@@ -175,7 +176,9 @@
   font-size: 19px;
 }
 
-.picture:hover {
+@keyframes pictureAnnimation {
+  to {
   transform: rotateX(180deg);
+  }
 }
 
